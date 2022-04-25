@@ -1,0 +1,59 @@
+/* DEVELOPER Adam Milewski, IS117-102, Spring 2022 */
+
+
+section{
+    padding-top:3%;
+    padding-left:13%;
+    padding-right:13%;
+
+}
+.navbar {
+    min-height: 50px; // your value here.
+}
+
+.content{
+    margin-left:13%;
+    margin-right:13%;
+    border-width:5px;
+    border-color:red;
+    border-style:solid;
+    background-color:lightyellow;
+}
+
+body {
+    background-image:url(media/pizzaback.jpg);
+    background-repeat: repeat;
+}
+
+footer{
+    color:red;
+    text-align:center;
+    font-family: "Times New Roman";
+    font-size:20pt;
+}
+
+#logo{
+    position:absolute;
+    z-index: 100;
+    padding-left:33%;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+h1 {
+    border-bottom: 5px dashed red;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33%;
+}
